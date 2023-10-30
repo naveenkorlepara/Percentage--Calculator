@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+    <div class="form" >
+        <h1>Grade Calculator</h1>
+         <div class="forminner">
+            <div class="label">
+                <label for="">Enter obtained marks:</label> 
+            <label for="">Enter total marks:</label> 
+            <label for="">percentage: </label>
+            <label for="">grade: </label>
+            </div>
+            
+      <div class="input">
+        <input type="number" id="n1" class="input-inner">
+            <input type="number" id="n2"class="input-inner">
+        
+            <input type="number" id="n3"class="input-inner">
+            <input type="text" id="n4" class="input-inner">
+      </div>
+         </div>
+        
+
+        
+        <button type="button"  id="per" onclick="per()">%</button>
+    
+        <button type="button"  id="gra" onclick="gra()">Click</button>
+        <div id="result"></div>
+    
+    </div>
+    <script src="grade.js">
+    </script>
+
+</body>
+
+</html>

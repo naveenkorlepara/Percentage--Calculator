@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.form{
+  display: flex;
+  flex-direction:column;
+  width:600px;
+  height:400px;
+  margin:150px 500px;
+  box-shadow: 5px 5px 5px rgb(236, 160, 172),-5px -5px 5px rgb(236, 160, 172);
+  border-radius: 5px;
+
+}
+.forminner{
+  display:flex;
+  width:410px;
+  justify-content: space-around;
+  height:250px;
+  margin-left:20px;
+  margin-right:20px;
+
+  
+}
+h1{
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(196, 185, 185);
+  color:rgba(10, 183, 45, 0.811);
+  margin-bottom:20px;
+}
+.label,.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font: 1rem sans-serif,'Poppins'; 
+  font-weight: bold;
+  color:rgb(104, 3, 113)
+}
+input{
+  padding:5px;
+  
+  outline:none;
+  border:transparent;
+  border-left:2px solid gray;
+  border-bottom:2px solid gainsboro ;
+
+}
+.input-inner{
+  margin-left:10px;
+  font-size: large;
+  color:rgba(165, 42, 42, 0.817);
+}
+button{
+      padding:5px;
+      width:100px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: 500;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border:none;
+      outline:none; 
+      color:white  ;
+      cursor: pointer; 
+      transition: .2s linear ;
+  
+
+}
+button:hover{
+  width:110px;
+  color:rgb(54, 2, 2);
+}
+#per{
+  margin-left:460px;
+  margin-top:-120px;
+  background-color: rgb(4, 138, 138);
+}
+#gra{
+  margin-left:460px;
+  margin-top:30px;
+  background-color: rgb(250, 153, 34);
+  
+}
+#result{
+  margin:50px 0 0 30px;
+  color:rgba(42, 39, 231, 0.822);
+  font:1.1rem sans-serif,'Poppins';
+}
