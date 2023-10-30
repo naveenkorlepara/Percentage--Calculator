@@ -23,7 +23,8 @@ switch(Math.floor(percentage/10)){
             break;
 }
 document.getElementById('n4').value=grade;
-document.getElementById('result').innerHTML=`you scored ${Math.round(percentage)}% and your grade is "${grade}"`;
+document.getElementById('result').innerHTML=`you scored <span id="span">${Math.round(percentage)}</span>% and your grade is "${grade}"`;
+document.getElementById('span').style.color="red";
 
 setTimeout(()=>{
     document.getElementById('n1').value='';
